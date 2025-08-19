@@ -13,6 +13,15 @@
   gap:10px;
 
  }
+ @media (max-width: 1025px) {
+  .header {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 12px 10px;
+    gap: 8px;
+  }
+}
  
 @media (max-width: 813px) {
   .header {

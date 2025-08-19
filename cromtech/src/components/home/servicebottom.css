@@ -113,3 +113,21 @@
     font-size: 0.95rem;
   }
 }
+@media (max-width: 1025px) {
+  .service-bottom {
+    /* flex-direction: column; */
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    padding: 18px 0;
+  }
+  .service-bottom-image {
+    width: 100%;
+    margin-bottom: 12px;
+    /* justify-content: center; */
+  }
+  .service-bottom-body {
+    width: 100%;
+    gap: 14px;
+  }
+}

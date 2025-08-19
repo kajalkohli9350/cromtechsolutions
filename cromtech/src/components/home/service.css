@@ -113,3 +113,15 @@ font-size: 24px;
     font-size: 0.95rem;
   }
 }
+@media (max-width: 1025px) {
+  .service-cards {
+    grid-template-columns: 1fr;
+    gap: 18px;
+    padding: 20px 0;
+  }
+  .card {
+    padding: 14px;
+    margin: 0 auto;
+    max-width: 95vw;
+  }
+}

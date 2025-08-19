@@ -311,3 +311,27 @@ footer {
     cursor: pointer;
   }
 }
+
+/* Responsive adjustments for project cards */
+@media (max-width: 1025px) {
+  .project-card {
+    min-width: 45vw;
+    max-width: 48vw;
+  }
+  .project-cards-inner {
+    gap: 16px;
+  }
+  .footer-links {
+    flex-direction: column;
+    gap: 30px;
+    margin-left: 0;
+    margin-top: 20px;
+    height: auto;
+    align-items: center;
+  }
+  .column {
+    width: 95vw;
+    margin-bottom: 18px;
+    padding: 18px 10px;
+  }
+}

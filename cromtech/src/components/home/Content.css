@@ -96,15 +96,15 @@ background-color: rgb(75, 110, 118);
 .slider-btn.left { left: 10px; }
 .slider-btn.right { right: 10px; }
 
-/* Tablet */
-@media (max-width: 813px) {
+
+@media (max-width: 1025px) {
   .content {
     flex-direction: column;
     height: auto;
     padding: 20px 0;
   }
   .content-image {
-    width: 80%;
+    width: 90%;
     padding-left: 0;
     margin: 0 auto;
   }
@@ -112,15 +112,9 @@ background-color: rgb(75, 110, 118);
     padding: 10px;
     text-align: center;
   }
-  .content-body h1 {
-    font-size: 2rem;
-  }
-  .content-body h3 {
-    font-size: 1.2rem;
-  }
 }
 
-/* Mobile */
+
 @media (max-width: 587px) {
   .content {
     flex-direction: column;
