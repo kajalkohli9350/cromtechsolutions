@@ -185,7 +185,52 @@
 
 
 @media (max-width: 1025px) {
-
+   .navbar {
+    padding: 10px 16px;
+  }
+  .menu-toggle {
+    display: block;
+    position: absolute;
+    left: 18px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 2rem;
+    z-index: 100;
+    background: none;
+    border: none;
+    color: #00a7c6;
+    cursor: pointer;
+  }
+  .navbar-right {
+    display: none;
+  }
+  .navbar-right.open {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%; /* Fix: 100vw → 100% */
+    box-sizing: border-box;
+    background: #fff;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    padding: 18px 0;
+    z-index: 99;
+  }
+   .navbar-right.open .nav-links {
+    flex-direction: column;
+    gap: 0;
+    width: 100%;
+    align-items: center;
+  }
+  .nav-links a {
+    display: block;
+    width: 100%;
+    padding: 12px 0;
+    font-size: 1.1rem;
+    text-align: center;
+    border-bottom: 1px solid #eee;
+  }
    .dropdown-content {
     position: static;
     min-width: 100%;
