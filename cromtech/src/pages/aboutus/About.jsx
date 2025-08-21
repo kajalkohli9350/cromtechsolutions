@@ -1,7 +1,16 @@
 import React from "react";
-const About =() => {
+import Header from '../../components/home/Header';
+import Content from '../../components/about/Content';
+import Projectandfooter from '../../components/home/Projectandfooter';
+
+function Aboutus(){
     return(
-        <div>About</div>
+        <>
+        <Header />
+        <Content/>
+        
+        <Projectandfooter/>
+        </>
     )
 }
-export default About
+export default Aboutus;
