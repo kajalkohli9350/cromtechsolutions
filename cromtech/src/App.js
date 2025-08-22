@@ -5,7 +5,7 @@ import Home from './pages/home/Home';
 import About from'./pages/aboutus/About';
 import Contact from './pages/contact/Contact';
 import Services from './pages/services/Services';
-import Ecommerce from './pages/ecommerce/Ecommerce';
+import Ecommerce from './pages/ecommerses/Ecommerce';
 import Solutions from './pages/solutions/Solutions';
 import Mobility from './pages/mobility/Mobility';
 
