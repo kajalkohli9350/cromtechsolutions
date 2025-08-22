@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './Navbar.css';
 import { FaBars, FaTimes } from 'react-icons/fa';
-
+import {Navlink} from 'react-router-dom';
 export default function Navbar({ className = "" }) {
   const [menuOpen, setMenuOpen] = useState(false);
 
@@ -18,11 +18,12 @@ export default function Navbar({ className = "" }) {
       </div>
       <div className={`navbar-right ${menuOpen ? 'open' : ''}`}>
         <div className="nav-links">
-          <a href="#">HOME</a>
-          <a href="#">ABOUT US</a>
+          <ul class='extras'>
+          <a href="/">HOME</a>
+          <a href="/about">ABOUT US</a>
         
           <div className="dropdown">
-            <a href="#">SERVICES</a>
+            <a href="/services">SERVICES</a>
             <div className="dropdown-content">
               <a href="#">ERP Solutions</a>
               <a href="#">Web Development</a>
@@ -40,7 +41,7 @@ export default function Navbar({ className = "" }) {
           </div>
          
           <div className="dropdown">
-            <a href="#">SOLUTIONS</a>
+            <a href="/solutions">SOLUTIONS</a>
             <div className="dropdown-content">
               <a href="#">SAP Solutions</a>
               <a href="#">Omni Channel Solutions</a>
@@ -49,10 +50,10 @@ export default function Navbar({ className = "" }) {
               <a href="#">Hospital Management System</a>
             </div>
           </div>
-          <a href="#">MOBILITY</a>
+          <a href="/mobility">MOBILITY</a>
           
           <div className="dropdown">
-            <a href="#">E-COMMERCE</a>
+            <a href="/ecommerce">E-COMMERCE</a>
             <div className="dropdown-content">
               <a href="#">B2B Commerce</a>
               <a href="#">B2C Commerce</a>
@@ -60,7 +61,8 @@ export default function Navbar({ className = "" }) {
               <a href="#">Payment Integration</a>
             </div>
           </div>
-          <a href="#">CONTACT US</a>
+          <a href="/contact">CONTACT US</a>
+         </ul> 
         </div>
       </div>
     </nav>

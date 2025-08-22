@@ -1,7 +1,15 @@
 import React from "react";
-const Contact =() => {
+import Header from '../../components/home/Header';
+import Content from '../../components/contact/Content';
+import Projectandfooter from '../../components/home/Projectandfooter';
+
+function Contact(){
     return(
-        <div></div>
+        <>
+        <Header />
+        <Content/>
+        <Projectandfooter/>
+        </>
     )
 }
-export default Contact
+export default Contact;

@@ -48,7 +48,18 @@
   font-weight: 100;
   font-size: 0.90rem;
 }
-
+li{
+  list-style: none;
+}
+.extras {
+  display: flex;
+  gap: 20px;
+}
+.nav-link .active{
+    font-weight: bold;
+  
+  border-bottom: 2px solid #007bff;
+}
 .nav-links a:hover {
   color: #00a7c6;
   border-left: 2px solid #00a7c6;

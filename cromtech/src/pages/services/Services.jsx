@@ -1,8 +1,15 @@
 import React from "react";
-function Services(){
+import Header from '../../components/home/Header';
+import Content from '../../components/services/Content';
+import Projectandfooter from '../../components/home/Projectandfooter';
 
+function Services(){
     return(
-        <div>ServiceS</div>
+        <>
+        <Header />
+        <Content/>
+        <Projectandfooter/>
+        </>
     )
 }
 export default Services;

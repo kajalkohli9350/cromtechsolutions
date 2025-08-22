@@ -8,7 +8,6 @@ function Aboutus(){
         <>
         <Header />
         <Content/>
-        
         <Projectandfooter/>
         </>
     )
